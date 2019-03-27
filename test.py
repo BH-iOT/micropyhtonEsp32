@@ -1,6 +1,11 @@
 import machine 
+import time
+
 pin=machine.Pin(2, machine.Pin.OUT)
-pin.on()
-print("hello World")
-for i in range(1, 11):
-    print(i)
+while True:
+    pin.on()
+    time.sleep(0.5)
+    pin.off()
+    time.sleep(0.5)
+
+
