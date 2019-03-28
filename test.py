@@ -2,10 +2,10 @@ import machine
 import time
 
 pin=machine.Pin(2, machine.Pin.OUT)
-while True:
+for i in range(10):
     pin.on()
     time.sleep(0.5)
     pin.off()
     time.sleep(0.5)
-
+    print("blink")
 
