@@ -4,4 +4,4 @@
  d.measure()
  d.temperature()
  d.humidity()
- 
+
